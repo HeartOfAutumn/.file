@@ -1,3 +1,20 @@
+# Create a new React Native project
+### 1. Open CMD
+### 2. ```npx react-native init <nameproject>```
+
+# Using a physical device
+
+### 1. Open PowerShell
+### 2. Run ```adb devices```
+### 3. Run ```adb -s <device name> reverse tcp:8081 tcp:8081```
+### 4. Rung ```npx react-native run-android```
+
+# React Developer Tools Set up
+### 1. Open CMD (run as Administrator)
+### 2. Add the react-devtools package to your project using ```npm install --save-dev react-devtools```
+### 3. Add ```"react-devtools": "react-devtools"``` to the scripts section in your ```package.json```
+### 4. Run ```npm run react-devtools``` from your project folder to open the DevTools.
+
 # VSCode - ESLint, Prettier & Airbnb Setup
 
 ### 1. Install ESLint & Prettier extensions for VSCode
@@ -37,9 +54,3 @@ npx install-peerdeps --dev eslint-config-airbnb
 * ESLint Rules - https://eslint.org/docs/rules/
 * Prettier Options - https://prettier.io/docs/en/options.html
 * Airbnb Style Guide - https://github.com/airbnb/javascript
-
-# React Developer Tools Set up
-### 1. Open CMD (run as Administrator)
-### 2. Add the react-devtools package to your project using ```npm install --save-dev react-devtools```
-### 3. Add ```"react-devtools": "react-devtools"``` to the scripts section in your ```package.json```
-### 4. Run ```npm run react-devtools``` from your project folder to open the DevTools.
