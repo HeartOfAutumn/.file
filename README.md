@@ -9,7 +9,7 @@
 ### 3. Run ```adb -s <device name> reverse tcp:8081 tcp:8081```
 ### 4. Rung ```npx react-native run-android```
 
-# React Developer Tools Set up
+# React Developer Tools Setup
 ### 1. Open CMD (run as Administrator)
 ### 2. Add the react-devtools package to your project using ```npm install --save-dev react-devtools```
 ### 3. Add ```"react-devtools": "react-devtools"``` to the scripts section in your ```package.json```
