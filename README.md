@@ -1,6 +1,6 @@
 # Create a new React Native project
 ### 1. Open CMD
-### 2. ```npx react-native init <name project>```
+### 2. ```npx react-native init <project name>```
 
 # Using a physical device
 
