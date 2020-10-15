@@ -15,6 +15,11 @@
 ### 3. Add ```"react-devtools": "react-devtools"``` to the scripts section in your ```package.json```
 ### 4. Run ```npm run react-devtools``` from your project folder to open the DevTools.
 
+# Using ESLint with config by Samerbuna
+### 1. Open CMD (run as administrator)
+### 2. Run ```npm i -D eslint babel-eslint eslint-plugin-react```
+### 3. Open file ```.eslintrc``` and copy text from ```.eslintrc``` in this repo
+
 # VSCode - ESLint, Prettier & Airbnb Setup
 
 ### 1. Install ESLint & Prettier extensions for VSCode
