@@ -18,7 +18,8 @@
 # Using ESLint with config by Samerbuna
 ### 1. Open CMD (run as administrator)
 ### 2. Run ```npm i -D eslint babel-eslint eslint-plugin-react```
-### 3. Open file ```.eslintrc``` and copy text from ```.eslintrc``` in this repo
+### 3. Open file ```.eslintrc``` and copy text from ```.eslintrc.js``` in this repo and paste it to your ```.eslintrc``` file.
+### 4. Ctrl + S.
 
 # VSCode - ESLint, Prettier & Airbnb Setup
 
