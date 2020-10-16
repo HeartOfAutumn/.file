@@ -15,6 +15,7 @@
 ### 3. Add ```"react-devtools": "react-devtools"``` to the scripts section in your ```package.json```
 ### 4. [Option] If you run on physical device, you need run ```adb reverse tcp:8097 tcp:8097```
 ### 5. Run ```npm run react-devtools``` from your project folder to open the DevTools.
+### 6. Turn on ```Debug``` on Developer Menu on your device
 
 # Using ESLint with config by Samerbuna
 ### 1. Open CMD (run as administrator)
