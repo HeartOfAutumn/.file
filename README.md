@@ -2,20 +2,20 @@
 ### 1. Open CMD
 ### 2. ```npx react-native init <project name>```
 
-# Using a physical device
-
-### 1. Open PowerShell
-### 2. Run ```adb devices```
-### 3. Run ```adb -s <device name> reverse tcp:8081 tcp:8081```
-### 4. Run ```npx react-native run-android```
-
-# React Developer Tools Setup
+# React Developer Tools Setup (Should run ```React DevTools``` before run ```run-android```)
 ### 1. Open CMD (run as Administrator)
 ### 2. Add the react-devtools package to your project using ```npm install --save-dev react-devtools```
 ### 3. Add ```"react-devtools": "react-devtools"``` to the scripts section in your ```package.json```
 ### 4. [Option] If you run on physical device, you need run ```adb reverse tcp:8097 tcp:8097```
 ### 5. Run ```npm run react-devtools``` from your project folder to open the DevTools.
 ### 6. Turn on ```Debug``` on Developer Menu on your device
+
+# Using a physical device
+
+### 1. Open PowerShell
+### 2. Run ```adb devices```
+### 3. Run ```adb -s <device name> reverse tcp:8081 tcp:8081```
+### 4. Run ```npx react-native run-android```
 
 # Using ESLint with config by Samerbuna
 ### 1. Open CMD (run as administrator)
